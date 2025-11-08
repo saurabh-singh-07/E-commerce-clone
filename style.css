@@ -1,0 +1,39 @@
+
+
+
+.frontCard{
+    background-image: url('https://cdn.shopify.com/s/files/1/0578/7133/5486/files/pattern-bg-gray.jpg?v=1717479033');
+    padding: 40px 0;
+    height: 25vh;
+    color: rgb(255, 248, 248);
+    
+}
+.list-items ul li span{
+    padding-left: 15px;
+}
+.buttom-banner{
+    background-image: url('https://www.themagnifico.net/cdn/shop/files/New-Project-1-1.png?v=1717495291');
+    height: 400Px;
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .buttom-banner{
+        height: 150px;
+    }
+}
+/* this is for content cantainer */
+.hide{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s;
+}
+/* for side menu */
+.active{
+    left : 0px;
+}
+
