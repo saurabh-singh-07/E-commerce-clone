@@ -2,10 +2,14 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://saurabh-singh-07.github.io/E-commererce-clone/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,15 @@
   "type": "commonjs",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh-singh-07/E-commererce-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saurabh-singh-07/E-commererce-clone/issues"
   }
 }
