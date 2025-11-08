@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" crossorigin href="/E-commerce-clone/assets/index-CAGZ3yKg.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="text-3xl ">
+        <ul class=" max-w-[1300px] mx-auto flex items-center justify-between p-5">
+            <li class="lg:hidden"><i class="openbtn fa-solid fa-bars"></i></li>
+            <li class="w-45"><img src="/E-commerce-clone/assets/icon-ClCwf75v.webp" alt=""></li>
+            <div class=" hidden text-xl items-center space-x-5 lg:flex">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Themes</li>
+                <div class="nav-item themesbtn">Themes Category</div>
+                <li class="nav-item">About Us</li>
+                <li class="nav-item">Blogs</li>
+                <div>
+                <div class="supportbtn">Support</div>
+                 <div class="supportCantainer absolute hidden border rounded-xl top-18 bg-white p-5 ">
+                    <ul class="text-xl space-y-3">
+                        <li>Contact</li>
+                        <li>Forum</li>
+                    </ul>
+                </div>
+            </div>
+                <li class="nav-item">My Account</li>
+            </div>
+            <div class="flex space-x-4">
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- Side menu cantainer  -->
+     <section>
+        <!-- side menu  -->
+        <div class="Sidemenu lg:hidden bg-white z-999 top-0 transform-[left] ease-in-out duration-300 py-10 px-4 w-90 h-full left-[-370px] fixed ">
+            <div class="closebtn text-4xl px-8 py-3 absolute top-0 right-0 ">X</div>
+            <ul class="space-y-10 absolute top-20 text-2xl">
+                <li>Home</li>
+                <li>Themes</li>
+                <div class="ThemesFeaturesopenbtn">Themes Category <i class="fa-solid fa-arrow-right"></i></div>
+                <li>About Us</li>
+                <li>Blogs</li>
+                <div class="supportFeaturesopenbtn">Support <i class="fa-solid fa-arrow-right"></i></div>
+                <li>My Account</li>
+            </ul>
+        </div>
+        <!-- themesCategory cantainer for small screen -->
+        <div class=" ThemesCategoryFeaturesContainer lg:hidden bg-white z-999 top-0 transform-[left] ease-in-out duration-300 py-10 px-4 w-90 h-full left-[-370px] fixed ">
+            <div class="ThemesFeaturesclosebtn text-xl mb-5 px-5 py-3 absolute top-10 left-0 "><i class="fa-solid fa-arrow-left"></i> Themes Category</div>
+            <ul class="space-y-10 absolute top-25 text-2xl">        
+                <li>Premium Themes</li>
+                <li>Wp theme BUndle</li>
+                <li>Featuresd Theme</li>
+                <li>New Release</li>
+                <li>Education Wp Bundle</li>
+            </ul>
+        </div>
+        <!-- support cantainer for small screen -->
+        <div class="supportFeaturesContainer  lg:hidden bg-white z-999 top-0 transform-[left] ease-in-out duration-300 py-10 px-4 w-90 h-full left-[-370px] fixed ">
+            <div class="supportFeaturesclosebtn text-xl mb-5 px-5 py-3 absolute top-10 left-0 "><i class="fa-solid fa-arrow-left"></i> Support</div>
+            <ul class="space-y-10 absolute top-25 text-2xl">
+                <li>Contact</li>
+                <li>Forum</li>
+            </ul>
+            
+        </div>
+        <!-- themesCategory cantainer for large screen -->
+        <div class="themesCantainer hidden absolute right-[46%] border rounded-xl top-18 bg-white p-5 ">
+            <ul class="text-xl space-y-3">
+                <li>Premium Themes</li>
+                <li>Wp theme BUndle</li>
+                <li>Featuresd Theme</li>
+                <li>New Release</li>
+                <li>Education Wp Bundle</li>
+            </ul>
+        </div>
+        <!-- support cantainer for large screen -->
+       
+     </section>
+   
+    <section>
+        <!-- front banner -->
+        <div class="frontCard flex text-center flex-col mb-2">
+            <h1 class="mx-auto text-4xl py-2">Responsive WordPress Themes</h1>
+            <div class="flex justify-center mt-4 space-x-5 py-3">
+                <p>Home</p>
+                <p><i class="fa-solid fa-arrow-right"></i></p>
+                <p>Pesponsive WordPress Themes</p>
+            </div>
+        </div>
+    </section>
+    <main class="mx-5 block lg:flex">            
+        <section class="lg:w-[80%]" >
+        <!-- cards items control -->
+            <div class="hidden my-30 md:flex  md:space-x-10 lg:space-x-15 justify-center">
+                <div class="flex pt-3 lg:text-2xl text-center">
+                    <p>Showing 1-20 of 125 result </p>
+                </div>
+        <!-- salling cantainer -->
+                <div>
+                    <button class="listsallingbtn cursor-pointer bg-gray-100 lg:text-2xl px-8 py-4 text-gray-500 rounded-4xl">Best selling <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="listSellingCantainer border-2 hidden  rounded-2xl bg-gray-100">
+                        <ul>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">best selling</li>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">Alphabetically, A-Z</li>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">Alphabetically, Z-A</li>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">Price, low to high</li>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">Price, high to low</li>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">Date, old to new</li>
+                            <li class="hover:bg-blue-600 hover:text-white p-2">Date, new to old</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <!-- sreach icon -->
+            <div class="flex flex-col">
+                <div class="p-4 md:hidden md:order-2 my-5 w-full bg-gray-200 rounded-3xl">
+                    <input class="border-none outline-none w-[90%]"  type="search" placeholder="Search">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <!-- main content  -->
+                <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gird">
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-1-GtPSYJgG.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">WordPress Theme Bundle - 120+ Templates</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$99.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-2-CbrnKVXP.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Cosmetic Store WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-3-BK4QGo-E.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Perfume Shop WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-4-51GrBAhN.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Pet WordPress theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-5-DhkT7SB3.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Dog Breeder WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-6-BNasNqGP.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Book Publisher WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-7-DRN-JBLy.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Supermarket WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-8-9Yal-JZk.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Education WordPress Theme Bundle - 12+ Templates</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$69.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-9-NzV25QsC.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Nonprofit WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-10-CpqkC0XG.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Resort WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-11-_7rNk08W.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Cleaning WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="card hide p-3 mb-6 mx-5 bg-gray-200">
+                        <div class="p-5 overflow-hidden w-full h-75">
+                            <img class="w-full object-contain" src="/E-commerce-clone/assets/cardimg-12-B8c_CBGD.webp" alt="">
+                        </div>
+                        <div class="text-center my-2">
+                            <p class="py-2 px-2 text-2xl">Property Management WordPress Theme</p>
+                            <span class="text-red-600 font-bold text-2xl px-2">$49.00</span> <span class="line-through">$4,999.00</span>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="bg-black text-white rounded-3xl py-3 px-5">Buy Now</button>
+                            <button class="bg-[#6fdbc2c8] text-white rounded-3xl py-3 px-5">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-20 p-3">
+                    <h3 class="text-3xl p-2.5">Checkout Out Collection Of Our Top WordPress Themes</h3>
+                    <p class="text-gray-600 p-2">Explore Our Impressive Selection of Responsive WordPress Themes, Featuring Over 120+ Unique Templates. Responsive web design is an absolute necessity in today's digital landscape. With the vast array of devices people use to access the internet, such as smartphones, tablets, laptops, and desktops, it's crucial that your website adapts seamlessly to various screen sizes. This is precisely where our collection of WordPress themes excels. Each theme is carefully crafted to be fully responsive, ensuring that your website will look stunning and remain user-friendly no matter what device your visitors are using.</p>
+                </div>
+                
+            </div>  
+        </section>
+        <section class="lg:mt-25" >
+            <div class="p-4 my-5 mx-4 bg-gray-200 rounded-3xl">
+                <input class="border-none outline-none w-[90%] " type="search" placeholder="Search">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="list-items mY-4 py-8 px-5 text-md bg-gray-200">
+                <h2 class="text-[22px] mb-10"><span class="border-b-2 border-[#1dcece] pb-5">Theme Category list</span></h2>
+                <ul class="space-y-5 text-gray-600">
+                    <li>3 <span>Accomodation</span></li>
+                    <li>4 <span>Adventure</span></li>
+                    <li>2 <span>Affiliate</span></li>
+                    <li>4 <span>Agency</span></li>
+                    <li>2 <span>Ambulance</span></li>
+                    <li>2 <span>Animals</span></li>
+                    <li>2 <span>Architecture</span></li>
+                    <li>2 <span>Article</span></li>
+                    <li>6 <span>Author</span></li>
+                    <li>3 <span>Automoblie</span></li>
+                    <li>4 <span>Automotive</span></li>
+                    <li>8 <span>Bakery</span></li>
+                    <li>6 <span>Beauty</span></li>
+                    <li>5 <span>Beverages</span></li>
+                    <li>10 <span>Blog</span></li>
+                    <li>4<span>Blogging</span></li>
+                    <li>5 <span>Bookstore</span></li>
+                    <li>2 <span>Bundle</span></li>
+                    <li>24 <span>Business</span></li>
+                    <li>4 <span>Cafe</span></li>
+                    <li>2 <span>Cargo</span></li>
+                    <li>2 <span>Carpenter</span></li>
+                    <li>2 <span>Catering</span></li>
+                    <li>4 <span>Charity</span></li>
+                    <li>2 <span>Cleaning</span></li>
+                    <li>2 <span>Clinic</span></li>
+                    <li>2 <span>Clothing</span></li>
+                    <li>6 <span>Coach</span></li>
+                    <li>3 <span>College</span></li>
+                    <li>2 <span>Community</span></li>
+                    <li>2 <span>Confectionery</span></li>
+                    <li>5 <span>Construction</span></li>
+                    <li>2 <span>Cooking</span></li>
+                    <li>11 <span>Decoration</span></li>
+                    <li>7 <span>Delivery</span></li>
+                    <li>4 <span>Design</span></li>
+                    <li>5 <span>Desserts</span></li>
+                    <li>2 <span>Diet</span></li>
+                    <li>2 <span>Ebook</span></li>
+                    <li>2 <span>Ecology</span></li>
+                    <li>2 <span>Ecommerce</span></li>
+                    <li>2 <span>Editorial</span></li>
+                    <li>2 <span>Ecommerce</span></li>
+                    <li>2 <span>EDitorial</span></li>
+                    <li>11 <span>Education</span></li>
+                    <li>4 <span>Electronics</span></li>
+                    <li>2 <span>Emergency</span></li>
+                    <li>7 <span>Entertainment</span></li>
+                    <li>3 <span>Event</span></li>
+                    <li>2 <span>Fashion</span></li>
+                    <li>12 <span>Featured Themes</span></li>
+                    <li>15 <span>Film</span></li>
+                    <li>2 <span>Fitness</span></li>
+                    <li>6 <span>Food</span></li>
+                    <li>15 <span>Fundraising</span></li>
+                    <li>50 <span>Free WordPress Themes</span></li>
+                </ul>
+            </div> 
+            <div>
+                <h2 class="text-2xl my-10"><span class="border-b-2 border-[#1dcece] pb-5">Products     </span></h2>
+                <div class="flex justify-between my-4">
+                    <div>
+                        <h3 class="font-bold">Fashion Portfolio WordPress Theme</h3>
+                        <p class="text-lg">$49.00<span class="pl-5 line-through text-sm">$59.00</span></p>
+                    </div>
+                    <div class="h-10 overflow-hidden">
+                        <img class="w-10  object-contain" src="/E-commerce-clone/assets/cardimg-1-GtPSYJgG.webp" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between my-4">
+                    <div>
+                        <h3 class="font-bold">Magazine WordPress Theme</h3>
+                        <p class="text-lg">$49.00<span class="pl-5 line-through text-sm">$59.00</span></p>
+                    </div>
+                    <div class="h-10 overflow-hidden">
+                        <img class="w-10  object-contain" src="/E-commerce-clone/assets/cardimg-2-CbrnKVXP.webp" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between my-4">
+                    <div>
+                        <h3 class="font-bold">Mobile Repair WordPress Theme</h3>
+                        <p class="text-lg">$49.00<span class="pl-5 line-through text-sm">$59.00</span></p>
+                    </div>
+                    <div class="h-10 overflow-hidden">
+                        <img class="w-10  object-contain" src="/E-commerce-clone/assets/cardimg-3-BK4QGo-E.webp" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between my-4">
+                    <div>
+                        <h3 class="font-bold">Premium Cake Shop WordPress Theme</h3>
+                        <p class="text-lg">$49.00<span class="pl-5 line-through text-sm">$59.00</span></p>
+                    </div>
+                    <div class="h-10 overflow-hidden">
+                        <img class="w-10  object-contain" src="/E-commerce-clone/assets/cardimg-1-GtPSYJgG.webp" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between my-4">
+                    <div>
+                        <h3 class="font-bold">Window Cleaning WordPress Theme</h3>
+                        <p class="text-lg">$49.00<span class="pl-5 line-through text-sm">$59.00</span></p>
+                    </div>
+                    <div class="h-10 overflow-hidden">
+                        <img class="w-10  object-contain" src="/E-commerce-clone/assets/cardimg-1-GtPSYJgG.webp" alt="">
+                    </div>
+                </div>
+            </div>  
+            <div>
+                <h2 class="text-2xl my-10"><span class="border-b-2 border-[#1dcece] pb-5">WordPress Theme Bundle</span></h2>
+                <div class="flex justify-center md:block">
+                    <div class="border-2 border-gray-200 text-center my-5 rounded-xl w-fit p-5">
+                        <img class="py-4" src="/E-commerce-clone/assets/bundle-img-D5E_PEAY.avif" alt="">
+                        <p>WordPress Theme Bundle at $99</p>
+                    </div>
+                </div>    
+            </div>       
+        </section>               
+    </main>
+    
+    <footer class="bg-gray-900">
+        <div class="buttom-banner flex items-center justify-center">
+            <button class="rounded-4xl text-[#1dcece] p-5 border-2 border-[#1dcece]">WORDPRESS THEME BUNDLE</button>
+        </div>
+        <div class=" text-white p-10 md:flex md:mx-10">
+            <div class="md:w-[75%]">
+                <h1 class="text-2xl mb-5"><span class="border-b-2 border-[#1dcece] pb-3">About Themagnifico</span></h1>
+                <p class="text-gray-400">The Magnifico is a single point of contact that provides a wide range of themes perfect for variety of niches, with a wide flair for innovation and creativity We have ample of resources and technical experts who will help you throughout the process of installation turn your raw concept or ideas into tangible realities. All our websites, themes and plugins are easy to install and are backed up by excellent team support</p>
+            </div>
+            <div class="pl-5 text-sm w-fit">
+                <h1 class="text-2xl pb-5">Compay</h1>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>Responsive WordPress Themes</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>Blogs</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>Support</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>FAQ'S</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>My Account</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>WordPress Theme Bundle - 120+ Templates</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>Free WordPress Themes </p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>Terms of Condition</p>
+                <p class="flex hover:border-b-2 hover:border-[#1dcece] mb-4"><i class="fa-solid fa-play mr-3"></i>Privacy Policy</p>
+            </div>
+        </div>
+        <div class="flex justify-between border-t-2 p-10 text-white border-gray-400">
+            <p>Mon-Fri 9am-7pm</p>
+            <p>Support@exampleco.net</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
