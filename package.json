@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
+    "build1": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -17,10 +18,11 @@
   "type": "commonjs",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
-    "gh-pages": "^6.3.0",
-    "tailwindcss": "^4.1.16"
+    "gh-pages": "^6.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^4.1.17"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saurabh-singh-07/E-commererce-clone.git"
